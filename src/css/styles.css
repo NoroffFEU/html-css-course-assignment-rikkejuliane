@@ -4,16 +4,148 @@
 /* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
 
-body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+.header-img-wrapper {
+  position: relative; 
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.header-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: absolute; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 16px;
+}
+
+.nav-links {
+  color: #FCE25A;
+  font-family: 'nfl-detroit-lions-regular', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navigation {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  padding-right: 1%;
+  padding-top: 6%;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color:#FCE25A; 
+}
+
+.footer-wrapper{
+  background-color: #3C3C3C;
+  width: 100%;
+  height: 232px;
+}
+
+.logo-footer {
+  height: 133px;
+  position: absolute; 
+}
+
+.footer-links {
+  color: #FCE25A;
+  font-family: 'nfl-detroit-lions-regular', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 30px;
+  display: inline-block;
+  
+}
+
+.footer-nav {
+  position: absolute; 
+  padding-right: 1%;
+  padding-top: 3%;
+  right: 30%;
+}
+
+.some-icon {
+  position: absolute;
+  padding-top: 3%;
+  right: 1%;
+}
+
+.some-icon-li {
+  margin: 9px;
+  display: inline-block;
+}
+
+.newsletter{
+  position:absolute;
+  bottom: -250px;
+  left: 32px;
+}
+
+.h1-footer {
+  font-family: "martel sans", sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.p-mail {
+  color: #aeaeae; 
+  font-family: "Martel sans", sans-serif;
+  font-size: 15px;
+}
+
+.pil {
+  height: 15px;
+  float: right; 
+}
+
+.p-mail, .pil {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hr {
+  width: 352px;
+  display:block; 
+  border-bottom: 2px solid #FCE25A;
+}
+
+.p-policy {
+  font-family: "martel sans", sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.h1-footer, .p-mail, .hr, .p-policy {
+  margin: 0px;
+  padding: 0px;
+}
+
+.payment-ul{
+  position: absolute;
+  padding-top: 10%;
+  right: 1%;
+
+}
+
+.payment{
+  margin: 0px;
+  padding: 0px;
+  height: 21px;
 }
