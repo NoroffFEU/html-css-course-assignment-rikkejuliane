@@ -85,6 +85,9 @@ li {
   height: auto;
 }
 
+main{ 
+  padding-bottom: 30px;
+}
 
 h1 {
   color: #FCE25A;
@@ -158,8 +161,6 @@ color:#fff;
   height: auto;
 }
 
-
-
 .section4 {
   display: flex;
   flex-direction: column;
@@ -175,6 +176,239 @@ color:#fff;
   max-width: 100%;
   height: auto;
 }
+
+.section1-about-wrapper{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+.section1-about-text{
+  padding: 15px;
+  margin-left: 125px;
+}
+
+.p-about {
+  font-family: "martel sans", sans-serif;
+  font-weight: 500;
+  max-width: 560px;
+  width: 560px;
+  font-size: 1.02rem;
+  padding: 15px;
+}
+
+.p-about2 {
+  font-family: "martel sans", sans-serif;
+  font-weight: 500;
+  max-width: 550px;
+  width: 550px;
+  font-size: 1.02rem;
+  padding: 15px;
+}
+
+.b-about {
+ font-family: "martel sans", sans-serif;
+ color: #fff;
+ font-weight: 700;
+ font-size: 1.02rem;
+}
+
+.section1-img{
+  padding: 15px;
+  margin-right: 125px;
+}
+
+.about-img1 {
+  width: 100%;
+  height: auto; 
+}
+
+.section2-about-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 20px;
+  }
+
+  .section2-about-text{
+    padding: 15px;
+    
+  }
+
+  .section2-img{
+    padding: 15px;
+    
+  }
+  
+  .about-img2 {
+    width: 100%;
+    height: auto; 
+  }
+
+  .contact1-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section1-disclaimer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    }
+    
+    .section1-disclaimer-text{
+      padding: 15px;
+      margin-left: 125px;
+    }
+    
+    .p-disclaimer {
+      font-family: "martel sans", sans-serif;
+      font-weight: 500;
+      max-width: 560px;
+      width: 560px;
+      font-size: 1.02rem;
+      padding-bottom: 35px;
+    }
+    
+    .h2-disclaimer {
+     font-family: "martel sans", sans-serif;
+     color: #fff;
+     font-weight: 700;
+     font-size: 1.02rem;
+     padding-bottom: 0;
+     margin-bottom: 0;
+    }
+    
+    .disclaimer-img{
+      padding: 15px;
+      margin-right: 125px;
+    }
+    
+    .disclaimer-img1 {
+      width: 100%;
+      height: auto; 
+    }
+
+    .link-style:link{
+      color: #000;
+    }
+
+    .link-style:visited{
+      color: #000;
+    }
+
+    .link-style:hover{
+      color:#FCE25A;
+    }
+
+    .btn-men{
+      background-color: #51584A;
+      border: 1px solid #fff;
+      font-family: "martel sans", sans-serif;
+      font-weight: 700;
+      border-radius: 36px;
+      color: #fff;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.9rem;
+      width: 184px;
+      cursor: pointer;
+      position: absolute;
+      top: 243%;
+      left: 25%;
+    }
+
+    .btn-men:hover{
+      background-color: #FCE25A;
+      color:#000
+    }
+
+    .btn-women{
+      background-color: #51584A;
+      border: 1px solid #fff;
+      font-family: "martel sans", sans-serif;
+      font-weight: 700;
+      border-radius: 36px;
+      color: #fff;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.9rem;
+      width: 184px;
+      cursor: pointer;
+      position: absolute;
+      top: 243%;
+      right: 25%;
+    }
+
+    .btn-women:hover{
+      background-color: #FCE25A;
+      color:#000
+    }
+
+    .btn-about{
+      background-color: #51584A;
+      border: 1px solid #fff;
+      font-family: "martel sans", sans-serif;
+      font-weight: 700;
+      border-radius: 36px;
+      color: #fff;
+      padding: 5px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.9rem;
+      width: 184px;
+      cursor: pointer;
+      position: absolute;
+      top: 285%;
+      right: 44%;
+    }
+
+    .btn-about:hover{
+      background-color: #FCE25A;
+      color:#000
+    }
+
+    .btn-contact{
+      background-color: #51584A;
+      border: 1px solid #fff;
+      font-family: "martel sans", sans-serif;
+      font-weight: 700;
+      border-radius: 36px;
+      color: #fff;
+      padding: 5px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.9rem;
+      width: 184px;
+      cursor: pointer;
+      position: absolute;
+      top: 340%;
+      right: 44%;
+    }
+
+    .btn-contact:hover{
+      background-color: #FCE25A;
+      color:#000
+    }
 
 footer {
     background-color: #3C3C3C;
