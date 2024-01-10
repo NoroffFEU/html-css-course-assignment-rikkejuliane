@@ -1,4 +1,5 @@
 
+*{ border: solid 1px red}
 
 .section1-contact{
     padding-bottom: 30px;
@@ -10,4 +11,48 @@
     justify-content: center;
   }
 
+ .section3-contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+ }
+
+ .contact-info-wrapper {
+    margin-top: 15px;
+ }
+
+
+ .section4-contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    gap: 50px;
+    }
+
+.section4-contact-text h3 {
+   margin-top: 15px;
+   margin-bottom: 0;
+   padding: 0;
+}
+
+.section4-contact-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+    
  

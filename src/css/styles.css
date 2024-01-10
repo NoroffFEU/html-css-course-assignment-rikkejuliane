@@ -14,17 +14,17 @@
   box-sizing: border-box;
 }
 
-* { border: 1px solid red; }
-
-html{
+html {
   font-size: 1rem;
 }
 
-body{
+body {
   background-color: #6E7865;
   font-size: 1rem;
 }
+
 /*-----------header-------------*/ 
+
 header {
   position: relative;
 }
@@ -87,7 +87,7 @@ li {
   height: auto;
 }
 
-main{ 
+main { 
   padding-bottom: 30px;
 }
 
@@ -116,14 +116,14 @@ h1 {
   margin: 0 160px;
 }
 
-.bulk-big-text{
+.bulk-big-text {
 font-size: 1.125rem;
 font-family: 'Noto Sans', sans-serif;
 font-weight: 700;
 color:#fff;
 }
 
-.bulk-small-text{
+.bulk-small-text {
   font-size: 0.975rem;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
@@ -180,7 +180,7 @@ color:#fff;
   max-width: 100%;
   height: auto;
 }
-.btn{
+.btn {
   background-color: #51584A;
   border: 1px solid #fff;
   font-family: "martel sans", sans-serif;
@@ -312,7 +312,7 @@ justify-content: center;
      margin-bottom: 0;
     }
     
-    .disclaimer-img{
+    .disclaimer-img {
       padding: 15px;
       margin-right: 125px;
     }
@@ -322,20 +322,20 @@ justify-content: center;
       height: auto; 
     }
 
-    .link-style:link{
+    .link-style:link {
       color: #000;
     }
 
-    .link-style:visited{
+    .link-style:visited {
       color: #000;
     }
 
-    .link-style:hover{
+    .link-style:hover {
       color:#FCE25A;
     }
 
   /*--------Men and women----------*/
-  .product-card{
+  .product-card {
     background-color: #51584A;
     margin: 10px;
     max-width: 341px;
@@ -346,7 +346,7 @@ justify-content: center;
     height: auto;
 }
 
-.product-name{
+.product-name {
     font-family: "martel sans", sans-serif;
     font-size: 1.125rem;
     font-weight: 800;
@@ -360,6 +360,34 @@ justify-content: center;
     font-size: 1.125rem;
     font-weight: 500;
     margin-left: 5px;
+}
+/*----------contact-----------*/
+
+.h3-contact {
+  font-family: "martel sans", sans-serif;
+    color: #fff;
+    font-size: 1.425rem;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.p-contact {
+  font-family: "martel sans", sans-serif;
+  color: #000;
+  font-size: 1.325rem;
+  font-weight: 500;
+  padding: 0;
+    margin: 0;
+}
+
+.h3-roboto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.675rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 /*----------footer-----------*/
@@ -394,7 +422,7 @@ footer {
   text-decoration: none;
 }
 
-.footer-nav, .some{
+.footer-nav, .some {
   display: flex;
   align-items: flex-end;
 }
