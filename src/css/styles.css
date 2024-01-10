@@ -14,6 +14,8 @@
   box-sizing: border-box;
 }
 
+* { border: 1px solid red; }
+
 html{
   font-size: 1rem;
 }
@@ -22,7 +24,7 @@ body{
   background-color: #6E7865;
   font-size: 1rem;
 }
-
+/*-----------header-------------*/ 
 header {
   position: relative;
 }
@@ -89,13 +91,13 @@ main{
   padding-bottom: 30px;
 }
 
+/*----------index-------------*/
 h1 {
   color: #FCE25A;
   font-family: 'Roboto', sans-serif;
   font-size: 1.875rem;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 25px;
 }
 
 .section1 {
@@ -128,20 +130,22 @@ color:#fff;
    color:#fff; 
 }
 
-
 .section2 {
   width: 80%;
   margin-right:auto;
   margin-left:auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.h1-index {
- font-family: "martel sans", sans-serif;
- color: #000;
- font-weight: 400;
- font-size: 1.363rem;
-
-}
+.h1-top {
+  font-family: "martel sans", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.363rem;
+  padding: 3px;
+  text-align: center;
+ }
 
 .bold {
   font-family: "martel sans", sans-serif;
@@ -176,6 +180,28 @@ color:#fff;
   max-width: 100%;
   height: auto;
 }
+.btn{
+  background-color: #51584A;
+  border: 1px solid #fff;
+  font-family: "martel sans", sans-serif;
+  font-weight: 700;
+  border-radius: 36px;
+  color: #fff;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.9rem;
+  width: 184px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #FCE25A;
+  color:#000
+}
+
+/*----------about-------------*/
 
 .section1-about-wrapper{
 display: flex;
@@ -249,12 +275,6 @@ justify-content: center;
     height: auto; 
   }
 
-  .contact1-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   img {
     max-width: 100%;
     height: auto;
@@ -314,102 +334,35 @@ justify-content: center;
       color:#FCE25A;
     }
 
-    .btn-men{
-      background-color: #51584A;
-      border: 1px solid #fff;
-      font-family: "martel sans", sans-serif;
-      font-weight: 700;
-      border-radius: 36px;
-      color: #fff;
-      padding: 5px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1.9rem;
-      width: 184px;
-      cursor: pointer;
-      position: absolute;
-      top: 243%;
-      left: 25%;
-    }
+  /*--------Men and women----------*/
+  .product-card{
+    background-color: #51584A;
+    margin: 10px;
+    max-width: 341px;
+}
 
-    .btn-men:hover{
-      background-color: #FCE25A;
-      color:#000
-    }
+.product-card img{
+    width: 100%;
+    height: auto;
+}
 
-    .btn-women{
-      background-color: #51584A;
-      border: 1px solid #fff;
-      font-family: "martel sans", sans-serif;
-      font-weight: 700;
-      border-radius: 36px;
-      color: #fff;
-      padding: 5px 15px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1.9rem;
-      width: 184px;
-      cursor: pointer;
-      position: absolute;
-      top: 243%;
-      right: 25%;
-    }
+.product-name{
+    font-family: "martel sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 5px;
+}
 
-    .btn-women:hover{
-      background-color: #FCE25A;
-      color:#000
-    }
+.product-price {
+    font-family: "martel sans", sans-serif;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
 
-    .btn-about{
-      background-color: #51584A;
-      border: 1px solid #fff;
-      font-family: "martel sans", sans-serif;
-      font-weight: 700;
-      border-radius: 36px;
-      color: #fff;
-      padding: 5px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1.9rem;
-      width: 184px;
-      cursor: pointer;
-      position: absolute;
-      top: 285%;
-      right: 44%;
-    }
-
-    .btn-about:hover{
-      background-color: #FCE25A;
-      color:#000
-    }
-
-    .btn-contact{
-      background-color: #51584A;
-      border: 1px solid #fff;
-      font-family: "martel sans", sans-serif;
-      font-weight: 700;
-      border-radius: 36px;
-      color: #fff;
-      padding: 5px 15px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1.9rem;
-      width: 184px;
-      cursor: pointer;
-      position: absolute;
-      top: 340%;
-      right: 44%;
-    }
-
-    .btn-contact:hover{
-      background-color: #FCE25A;
-      color:#000
-    }
-
+/*----------footer-----------*/
 footer {
     background-color: #3C3C3C;
     width: 100%;
