@@ -49,7 +49,6 @@ header {
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -377,8 +376,7 @@ justify-content: center;
   color: #000;
   font-size: 1.325rem;
   font-weight: 500;
-  padding: 0;
-    margin: 0;
+  
 }
 
 .h3-roboto{

@@ -1,0 +1,80 @@
+
+
+.container-product {
+    display: flex;
+     gap: 30px;
+}
+
+.product-img {
+    display: flex;
+    flex-direction: column;
+    width: 548px;
+    gap: 30px;
+    margin-top: 91px;
+    margin-left: 100px;
+}
+
+.content-product {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.headline-product{
+    display: flex;
+    flex-direction: row;
+    gap: 290px 
+}
+
+
+.headline-h1 {
+   font-family: "martel sans", sans-serif;
+   font-weight: 800;
+   font-size: 1.75rem;
+   color: white;
+   margin-top: 70px;
+   padding: 0 15px;
+   margin-bottom: 0;
+}
+
+.headline-p {
+    font-family: "martel sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.375rem;
+    color: black;
+    padding: 0px 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.list-contact ul li{
+list-style: circle;
+}
+
+.list-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-contact-li{
+    font-family: "martel sans", sans-serif;
+    font-weight: 500;
+    max-width: 560px;
+    width: 560px;
+    font-size: 1.02rem;
+    margin: 0 15px;
+}
+
+
+.btn-product{
+    background-color: #FCE25A;
+    font-family: "martel sans", sans-serif;
+    font-weight: 800;
+    font-size: 1.475rem;
+    color: black;
+    border: 1px solid white;
+    border-radius: 36px;
+    cursor: pointer;
+    width: 330px;
+}

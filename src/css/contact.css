@@ -1,5 +1,5 @@
 
-*{ border: solid 1px red}
+
 
 .section1-contact{
     padding-bottom: 30px;
@@ -10,6 +10,84 @@
     align-items: center;
     justify-content: center;
   }
+
+/*----------contact form-------*/  
+label{
+    font-family: "martel sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+input[type=text], textarea {
+width: 100%;
+font-family: "martel sans", sans-serif;
+font-size: 1.125rem;
+padding: 5px;
+border: none;
+border-radius: 1px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=text]:focus, textarea:focus {
+    border: 1px solid black;
+}
+
+.names{
+    display: flex;
+    gap: 8px;
+}
+
+input[type=submit] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: "martel sans", sans-serif;
+    font-weight: 800;
+    font-size: 1.375rem;
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    width: 480px;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    background-color: #FCE25A;
+}
+
+.icon-paperplane{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    background-color: #51584A;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.section2-contact{
+    margin-top: 40px;
+}
+
+/*------ end contact form --------*/
 
  .section3-contact {
     text-align: center;
@@ -23,7 +101,6 @@
     margin-top: 15px;
  }
 
-
  .section4-contact-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -35,16 +112,12 @@
     }
 
 .section4-contact-text h3 {
-   margin-top: 15px;
-   margin-bottom: 0;
+    margin-top: 20px;
    padding: 0;
 }
 
-.section4-contact-text p{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.p-contact{
+    margin-top: -9px;
 }
 
 
