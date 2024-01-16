@@ -11,38 +11,31 @@ a{
     justify-content: center;
 }
 
-
 .color-dot-black1{
-    position: absolute;
-    top: 1305px;
-    left: 490px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #000;
     border: 1px solid white;
+    margin-right: 8px;
 }
 
 .color-dot-navy{
-    position: absolute;
-    top: 1305px;
-    right: 560px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #242737;
     border: 1px solid white;
+    margin-right: 8px;
 }
 
 .color-dot-black2{
-    position: absolute;
-    top: 1305px;
-    right: 190px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #000;
     border: 1px solid white;
+    margin-right: 8px;
 }
 
 .section2-men{
@@ -54,34 +47,28 @@ a{
 }
 
 .color-dot-kaki{
-    position: absolute;
-    top: 1875px;
-    left: 490px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #A59E89;
     border: 1px solid white;
+    margin-right: 8px;
 }
 
 .color-dot-black3{
-    position: absolute;
-    top: 1875px;
-    right: 560px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #000;
     border: 1px solid white;
+    margin-right: 8px;
 }
 
 .color-dot-green{
-    position: absolute;
-    top: 1875px;
-    right: 190px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #72785A;
     border: 1px solid white;
+    margin-right: 8px;
 }
