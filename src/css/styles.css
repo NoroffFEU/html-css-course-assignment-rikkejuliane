@@ -97,7 +97,7 @@ li {
 
 
 /*-----hamburger----*/
-#hamitem, #hamnav {
+#hamitem {
   display: none;
 }
 
