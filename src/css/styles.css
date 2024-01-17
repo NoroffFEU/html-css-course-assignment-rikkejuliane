@@ -11,6 +11,9 @@
 *{
   margin: 0px;
   padding: 0px;
+}
+
+*, *::after, *::befor {
   box-sizing: border-box;
 }
 
@@ -27,6 +30,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+main { 
+  padding-bottom: 30px;
+}
+
+
 /*-----------header-------------*/ 
 
 header {
@@ -86,9 +95,12 @@ li {
   height: auto;
 }
 
-main { 
-  padding-bottom: 30px;
+
+/*-----hamburger----*/
+#hamitem, #hamnav {
+  display: none;
 }
+
 
 /*----------index-------------*/
 h1 {
@@ -511,7 +523,27 @@ margin-right: -5px;
 
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
+#hamitems {display: block;}
+#hamitems a{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid white;
+}
 
+#hamnav label {
+  display: inline-block;
+  color:#FCE25A;
+  background-color: #51584A;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.675rem;
+  font-weight: 500;
+ }
+ 
+ #hamitems { display: none;}
+
+ #hamnav input:checked ~ #hamitems {display: block;}
 }
  
 /* tablet and small laptops */
