@@ -90,14 +90,14 @@ li {
 }
 
 .cart-icon {
-  width: 100%;
-  max-width: 50px;;
-  height: auto;
+  max-width: 50px;
 }
 
 
 /*-----hamburger----*/
-
+#hamburger, #hamnav {
+  display: none;
+}
 
 
 /*----------index-------------*/
@@ -392,8 +392,7 @@ footer {
 .logo-footer {
   margin-left: 5%;
   margin-top: 2vw;
-  max-width: 100%;
-  height: auto;
+ 
 }
 
 .footer-ul {
@@ -518,10 +517,23 @@ margin-right: -5px;
 }
 
 
-
+  /* ---------- MEDIA QUERIES -------------*/
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
-#hamitems {display: block;}
+
+  .nav-links {
+    font-size: 1rem;
+  }
+
+/*---nav---*/ 
+.navigation {
+  display: none;
+}
+
+
+/*----hamburger--*/
+
+
 #hamitems a{
   display: block;
   width: 100%;
@@ -532,20 +544,53 @@ margin-right: -5px;
 #hamnav label {
   display: inline-block;
   color:#FCE25A;
-  background-color: #51584A;
+  background-color: transparent;
   padding: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.675rem;
   font-weight: 500;
+  float: right;
+  margin-right: 10px;
  }
  
- #hamitems { display: none;}
+ #hamitems { 
+  display: none;
 
- #hamnav input:checked ~ #hamitems {display: block;}
 }
+
+ #hamnav { 
+  position: absolute;
+  display: block;
+  top: 10px;
+  right: 0px; 
+  width: 100%;
+  
+ }
+
+ #hamnav input:checked ~ #hamitems {
+  display: block;
+  background-color: #51584A;
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  text-align: center;
  
+}
+
+
+
+ /*---footer---*/
+ .logo-footer {
+
+}
+
+}
+
 /* tablet and small laptops */
 @media screen and (min-width: 601px) and (max-width: 900px) {
+  .nav-links {
+    font-size: 1.275rem;
+  }
 
 }
  
