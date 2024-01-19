@@ -97,3 +97,33 @@
     cursor: pointer;
     width: 300px;
 }
+
+
+    /* mobile to small tablet */
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .header-img-wrapper,
+        .header-img {
+         height: 20vh; 
+        }
+    }
+     
+    
+    
+    /* tablet and small laptops */
+    @media screen and (min-width: 601px) and (max-width: 900px) {
+        .header-img-wrapper,
+        .header-img {
+         height: 20vh; 
+        }
+    }
+     
+    /* laptop to larger desktops */
+    @media screen and (min-width: 901px) and (max-width: 1300px) {
+        .header-img-wrapper,
+        .header-img {
+         height: 20vh; 
+        }
+    }
+     
+    /* larger monitors */
+    @media screen and (min-width: 1301px) {}
