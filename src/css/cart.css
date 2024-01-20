@@ -1,4 +1,4 @@
-.p-continue-shopping {
+/* .p-continue-shopping {
   font-family: "martel sans", sans-serif;
   font-weight: 500;
   color: white;
@@ -8,7 +8,7 @@
   padding-top: 27px;
 }
 
-.a-continue-shopping {
+/* .a-continue-shopping {
   text-decoration: underline;
 }
 
@@ -25,6 +25,7 @@
 }
 
 /*-----form----*/
+/*
 .form-cart {
   display: flex;
   flex-direction: column;
@@ -88,3 +89,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #fce25a;
 }
+--*/
