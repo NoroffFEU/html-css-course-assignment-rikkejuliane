@@ -34,6 +34,10 @@ main {
   padding-bottom: 70px;
 }
 
+.hidden {
+  display: none;
+}
+
 /*-----------header-------------*/
 
 header {
@@ -54,7 +58,6 @@ header {
 .logo {
   position: absolute;
   padding: 20px;
-
 }
 
 ul {
@@ -121,7 +124,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin: 0 160px;
-  
 }
 
 .bulk-big-text {
@@ -205,11 +207,11 @@ h1 {
 /*----------about-------------*/
 
 .section1-about-wrapper {
-  display: flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .section1-about-text {
@@ -218,9 +220,9 @@ h1 {
 
 .p-about {
   font-family: "martel sans", sans-serif;
-      font-weight: 500;
-      font-size: 1.02rem;
-      padding-bottom: 35px;
+  font-weight: 500;
+  font-size: 1.02rem;
+  padding-bottom: 35px;
 }
 
 .p-about2 {
@@ -232,9 +234,9 @@ h1 {
 
 .b-about {
   font-family: "martel sans", sans-serif;
-     color: #fff;
-     font-weight: 700;
-     font-size: 1.02rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.02rem;
 }
 
 .section1-about-wrapper,
@@ -243,7 +245,7 @@ h1 {
 }
 
 .section2-about-wrapper {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -282,32 +284,6 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
 }
-/*----------contact-----------*/
-
-.h3-contact {
-  font-family: "martel sans", sans-serif;
-  color: #fff;
-  font-size: 1.425rem;
-  font-weight: 800;
-  padding: 0;
-  margin: 0;
-}
-
-.p-contact {
-  font-family: "martel sans", sans-serif;
-  color: #000;
-  font-size: 1.325rem;
-  font-weight: 500;
-}
-
-.h3-roboto {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.675rem;
-  font-weight: 500;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-}
 
 /*----------footer-----------*/
 footer {
@@ -322,13 +298,17 @@ footer {
 }
 
 .logo-footer {
- margin-left: 20px;
- padding-top: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .footer-ul {
   display: flex;
   justify-content: center;
+}
+
+.li-footer {
+  margin: 16px;
 }
 
 .footer-links {
@@ -456,13 +436,17 @@ footer {
   /* ---- INDEX---- */
 
   .nav-links {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .h1-top,
   .bold {
+    text-wrap: wrap;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     font-size: 1rem;
-    word-wrap: break-word;
   }
 
   .section2 {
@@ -486,7 +470,7 @@ footer {
   h1 {
     font-size: 1.675rem;
   }
-  
+
   /*---nav---*/
   .navigation {
     display: none;
@@ -540,36 +524,35 @@ footer {
     text-align: center;
   }
 
-/*---bulk-section---*/
-.section1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: auto;
-  padding: 10px 20px;
-  align-items: center;
-  text-align: center;
-}
+  /*---bulk-section---*/
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+  }
 
-.bulk {
-  margin: 10px 0;
-  align-items: center;
-  text-align: center;
-}
+  .bulk {
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+  }
 
-.bulk-big-text {
-  font-size: 0.8rem;
-}
+  .bulk-big-text {
+    font-size: 0.8rem;
+  }
 
-.bulk-small-text {
-  font-size: 0.6rem;
-}
+  .bulk-small-text {
+    font-size: 0.6rem;
+  }
 
-.icon {
-  width: 40px;
-  height: auto;
-}
-
+  .icon {
+    width: 40px;
+    height: auto;
+  }
 
   /*---footer---*/
 
@@ -589,7 +572,6 @@ footer {
 
   .logo-footer {
     margin-bottom: 10px;
-    
   }
 
   .some {
@@ -617,10 +599,19 @@ footer {
 
   .footer-nav {
     padding-bottom: 10px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    max-width: 80%;
   }
 
   .nav-links {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+
+  .li-footer {
+    margin: 10px;
   }
 
   .newsletter-wrapper2 {
@@ -639,7 +630,7 @@ footer {
 /* tablet and small laptops */
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .nav-links {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   /*---nav---*/
@@ -647,7 +638,6 @@ footer {
     display: none;
   }
 
- 
   /*----hamburger--*/
 
   #hamitems a {
@@ -703,23 +693,22 @@ footer {
     justify-content: space-between;
     height: auto;
     padding: 10px 25px;
-    
   }
-  
+
   .bulk {
     margin: 10px 0;
     align-items: center;
     text-align: center;
   }
-  
+
   .bulk-big-text {
     font-size: 0.9rem;
   }
-  
+
   .bulk-small-text {
     font-size: 0.7rem;
   }
-  
+
   .icon {
     width: 40px;
     height: auto;
@@ -777,7 +766,6 @@ footer {
 
 /* laptop to larger desktops */
 @media screen and (min-width: 901px) and (max-width: 1300px) {
-  
   /*----bulk---*/
   .section1 {
     display: flex;
@@ -785,13 +773,13 @@ footer {
     justify-content: space-between;
     height: auto;
     padding: 10px 25px;
-   }
-    
-    .bulk {
-      margin: 10px 0;
-      align-items: center;
-      text-align: center;
-    }
+  }
+
+  .bulk {
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* larger monitors */
@@ -803,11 +791,11 @@ footer {
     justify-content: space-between;
     height: auto;
     padding: 10px 25px;
-   }
-    
-    .bulk {
-      margin: 10px 0;
-      align-items: center;
-      text-align: center;
-    }
+  }
+
+  .bulk {
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+  }
 }
