@@ -71,18 +71,3 @@ a {
   margin-right: 8px;
 }
 
-/* mobile to small tablet */
-@media screen and (min-width: 300px) and (max-width: 600px) {
-}
-
-/* tablet and small laptops */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-}
-
-/* laptop to larger desktops */
-@media screen and (min-width: 901px) and (max-width: 1300px) {
-}
-
-/* larger monitors */
-@media screen and (min-width: 1301px) {
-}

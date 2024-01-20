@@ -96,4 +96,8 @@
 
 /* larger monitors */
 @media screen and (min-width: 1301px) {
+  .header-img-wrapper,
+  .header-img {
+    height: 20vh;
+  }
 }

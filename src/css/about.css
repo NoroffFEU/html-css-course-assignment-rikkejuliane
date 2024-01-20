@@ -54,10 +54,4 @@
   }
 }
 
-/* laptop to larger desktops */
-@media screen and (min-width: 901px) and (max-width: 1300px) {
-}
 
-/* larger monitors */
-@media screen and (min-width: 1301px) {
-}
