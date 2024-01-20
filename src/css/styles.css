@@ -34,10 +34,6 @@ main {
   padding-bottom: 70px;
 }
 
-.hidden {
-  display: none;
-}
-
 /*-----------header-------------*/
 
 header {
@@ -594,7 +590,7 @@ footer {
 
   .some-img {
     height: 45px;
-    width: 45x;
+    width: 45px;
   }
 
   .footer-nav {
@@ -747,7 +743,7 @@ footer {
 
   .some-img {
     height: 45px;
-    width: 45x;
+    width: 45px;
   }
 
   .footer-nav {

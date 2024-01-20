@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rainydays︱Product page (Ilma Parka)</title>
         <meta name="discription" content="Product page shows more information about the Ilma parka">
-        <link rel="stylesheet" href="src/css/styles.css">
-        <link rel="stylesheet" href="src/css/product.css">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="stylesheet" href="./src/css/product.css">
         <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     </head>
     <body>
@@ -18,18 +18,27 @@
                 <img class="header-img" src="./assets/images/headerthin.jpg" alt="Mountain range with a fjord, clouds and a rainbow">
                 <nav class="navigation">
                     <ul>
-                     <li><a class="nav-links" href="index.html">HOME</a></li>
-                     <li><a class="nav-links" href="mens.html">MEN</a></li>
-                     <li><a class="nav-links" href="womens.html">WOMEN</a></li>
-                     <li><a class="nav-links" href="about.html">ABOUT</a></li>
-                     <li><a class="nav-links" href="contact.html">CONTACT</a></li>
-                     <!--<li ><a class="nav-links" href="cart.html"><img class="cart-icon" src="./assets/images/BAG.png"></a></li>-->
-                   </ul>
-                   </nav>
-              
-                   <nav id="hamnav">
+                        <li>
+                            <a class="nav-links" href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a class="nav-links" href="mens.html">MEN</a>
+                        </li>
+                        <li>
+                            <a class="nav-links" href="womens.html">WOMEN</a>
+                        </li>
+                        <li>
+                            <a class="nav-links" href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a class="nav-links" href="contact.html">CONTACT</a>
+                        </li>
+                        <!--<li ><a class="nav-links" href="cart.html"><img class="cart-icon" src="./assets/images/BAG.png"></a></li>-->
+                    </ul>
+                </nav>
+                <nav id="hamnav">
                     <label for="hamburger">&#9776;</label>
-                    <input type="checkbox" id="hamburger" hidden/>
+                    <input type="checkbox" id="hamburger" hidden>
                     <div id="hamitems">
                         <a href="./index.html">HOME</a>
                         <a href="./mens.html">MEN'S</a>
@@ -37,71 +46,93 @@
                         <a href="./about.html">ABOUT</a>
                         <a href="./contact.html">CONTACT</a>
                     </div>
-                 </nav>
-                  </div>
-        </header>
-
-<main>
-    <section>
-        <div class="section-product-wrapper">
-
-            <div class="product-img">
-                <img src="./assets/images/ilma-parka-1.jpg" alt="Black long parka on a model from the front">
-                <img class="hidden" src="./assets/images/ilma-parka-2.jpg" alt="Black long parka on a model from the side">
-                <img class="hidden" src="./assets/images/ilma-parka-3.jpg" alt="Black long parka on a model from the back">
+                </nav>
             </div>
-
-            <div class="content-product">
-                <div class="headline-product">
-                    <h1 class="headline-product-h1">ILMA PARKA</h1><h1 class="headline-product-h1">€220</h1>
-                </div>
-
-                <div>
-                    <p class="headline-product-p">Black</p>
-                </div>
-
-                <div class="size-btn-wrapper">
-                    <select name="sizes" id="sizes">
-                        <option value="select">SELECT SIZE</option>
-                        <option value="xs">XS</option>
-                        <option value="s">S</option>
-                        <option value="m">M</option>
-                        <option value="l">L</option>
-                        <option value="xl">XL</option>
-                    </select>
-                    <!--<div class="btn-wrapper">
+        </header>
+        <main>
+            <section>
+                <div class="section-product-wrapper">
+                    <div class="product-img">
+                        <img src="./assets/images/ilma-parka-1.jpg" alt="Black long parka on a model from the front">
+                        <img class="hidden" src="./assets/images/ilma-parka-2.jpg" alt="Black long parka on a model from the side">
+                        <img class="hidden" src="./assets/images/ilma-parka-3.jpg" alt="Black long parka on a model from the back">
+                    </div>
+                    <div class="content-product">
+                        <div class="headline-product">
+                            <h1 class="headline-product-h1">ILMA PARKA</h1>
+                            <h1 class="headline-product-h1">€220</h1>
+                        </div>
+                        <div>
+                            <p class="headline-product-p">Black</p>
+                        </div>
+                        <div class="size-btn-wrapper">
+                            <select name="sizes" id="sizes">
+                                <option value="select">SELECT SIZE</option>
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                            <!--<div class="btn-wrapper">
                         <a href="/cart.html">
                             <button class="btn-product">ADD TO CART</button>
                         </a>-->
-                    </div>
-
-                    <div class="product-text-wrapper">
-                        <p class="p-product">Introducing
-                            <b class="b-product">Ilma,</b> a timeless parka designed with a sporty aesthetic, providing full waterproof and windproof capabilities with sealed seams. Crafted from a soft and lightweight material, this parka ensures you're well-prepared for inclement and blustery weather conditions.
-                        </p>
-                        <p class="p-product">This parka features a sleek matte finish, equipped with four zippered front pockets and two interior pockets—one of which is zippered. It boasts an adjustable fixed hood, accompanied by a high collar for added protection. Both cuffs and waist are adjustable for a personalized fit. The two-way zip front offers ventilation, secured with a protective storm flap and discreet fastening.</p>
-                        <p class="p-product">Adorned with a reflective printed logo and taped details on the back, the lining of this parka is dyed using Solution Dye—a technique that conserves up to 80% of water compared to traditionally dyed polyester/polyamide fabric. Additionally, it is treated with a PFC-free water-repellent finish.</p>
-                        <div class="list-contact">
-                            <ul class="list-product">
-                                <li class="p-product-li">100% polyester</li>
-                                <li class="p-product-li">Water Column: 10,000mm</li>
-                                <li class="p-product-li">Breathability: 5,000 g/m²/24h</li>
-                            </ul>
                         </div>
-                    </div>              
-                </div>
-            </section>
-
-
-</main>
-
-        <footer>
-            <div class="footer-wrapper1">
-                <div class="logo-and-some">
-                    <a href="./index.html">
-                        <img class="logo-footer" src="./assets/images/rainydaysLOGO.png" alt="Logo: Green shades of tint rainbow with yellow text-Rainyday">
-                      </a>
-                    <nav class="some-media-phone">
+                        <div class="product-text-wrapper">
+                            <p class="p-product">
+                                Introducing
+                                <b class="b-product">Ilma,</b>
+                                a timeless parka designed with a sporty aesthetic, providing full waterproof and windproof capabilities with sealed seams. Crafted from a soft and lightweight material, this parka ensures you're well-prepared for inclement and blustery weather conditions.
+                            </p>
+                            <p class="p-product">This parka features a sleek matte finish, equipped with four zippered front pockets and two interior pockets—one of which is zippered. It boasts an adjustable fixed hood, accompanied by a high collar for added protection. Both cuffs and waist are adjustable for a personalized fit. The two-way zip front offers ventilation, secured with a protective storm flap and discreet fastening.</p>
+                            <p class="p-product">Adorned with a reflective printed logo and taped details on the back, the lining of this parka is dyed using Solution Dye—a technique that conserves up to 80% of water compared to traditionally dyed polyester/polyamide fabric. Additionally, it is treated with a PFC-free water-repellent finish.</p>
+                            <div class="list-contact">
+                                <ul class="list-product">
+                                    <li class="p-product-li">100% polyester</li>
+                                    <li class="p-product-li">Water Column: 10,000mm</li>
+                                    <li class="p-product-li">Breathability: 5,000 g/m²/24h</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="footer-wrapper1">
+                    <div class="logo-and-some">
+                        <a href="./index.html">
+                            <img class="logo-footer" src="./assets/images/rainydaysLOGO.png" alt="Logo: Green shades of tint rainbow with yellow text-Rainyday">
+                        </a>
+                        <nav class="some-media-phone">
+                            <ul class="some-icon">
+                                <li class="some-icon-li">
+                                    <a href="https://www.instagram.com/">
+                                        <img class="some-img" src="./assets/images/instagram-square13.46.51.svg" alt="instagram logo">
+                                    </a>
+                                </li>
+                                <li class="some-icon-li">
+                                    <a href="https://www.facebook.com/">
+                                        <img class="some-img" src="./assets/images/facebook-square13.46.51.svg" alt="facebook logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="footer-ul">
+                            <li>
+                                <a class="nav-links" href="./about.html">ABOUT</a>
+                            </li>
+                            <li>
+                                <a class="nav-links" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li>
+                                <a class="nav-links" href="./disclaimer.html">DISCLAIMER</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="some">
                         <ul class="some-icon">
                             <li class="some-icon-li">
                                 <a href="https://www.instagram.com/">
@@ -116,79 +147,52 @@
                         </ul>
                     </nav>
                 </div>
-                <nav class="footer-nav">
-                    <ul class="footer-ul">
-                        <li>
-                            <a class="nav-links" href="./about.html">ABOUT</a>
-                        </li>
-                        <li>
-                            <a class="nav-links" href="./contact.html">CONTACT</a>
-                        </li>
-                        <li>
-                            <a class="nav-links" href="./disclaimer.html">DISCLAIMER</a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav class="some">
-                    <ul class="some-icon">
-                        <li class="some-icon-li">
-                            <a href="https://www.instagram.com/">
-                                <img class="some-img" src="./assets/images/instagram-square13.46.51.svg" alt="instagram logo">
-                            </a>
-                        </li>
-                        <li class="some-icon-li">
-                            <a href="https://www.facebook.com/">
-                                <img class="some-img" src="./assets/images/facebook-square13.46.51.svg" alt="facebook logo">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer-wrapper2">
-                <container class="newsletter-wrapper2">
-                    <div class="newsletter"></div>
-                    <label for="newsletter-title" class="newsletter-title">JOIN OUR NEWSLETTER</label>
-                    <div class="input-container">
-                        <button type="submit" class="submit-button">
-                            <img class="pil" src="./assets/images/PIL.svg" alt="yellow arrow">
-                        </button>
-                        <input
-                            type="email"
-                            class="email-input"
-                            placeholder="example@mail.com"
-                            required
-                        >
+                <div class="footer-wrapper2">
+                    <container class="newsletter-wrapper2">
+                        <div class="newsletter"></div>
+                        <label for="e-mail" class="newsletter-title">JOIN OUR NEWSLETTER</label>
+                        <div class="input-container">
+                            <button type="submit" class="submit-button">
+                                <img class="pil" src="./assets/images/PIL.svg" alt="yellow arrow">
+                            </button>
+                            <input
+                                type="email"
+                                class="email-input"
+                                id="e-mail"
+                                placeholder="example@mail.com"
+                                required
+                            >
+                        </div>
+                        <div class="privacy-policy">By subscribing you agree to RAINYDAY'S privacy policy.</div>
+                    </container>
+                    <div class="payment-wrapper">
+                        <nav>
+                            <ul class="payment-ul">
+                                <li class="payment">
+                                    <a href="https://www.klarna.com/no/?grs=https%3A%2F%2Fwww.klarna.com%2F&grr=empty">
+                                        <img class="payment-img" src="./assets/images/KLARNA.svg" alt="Klarna logo">
+                                    </a>
+                                </li>
+                                <li class="payment">
+                                    <a href="https://www.visa.no/">
+                                        <img class="payment-img" src="./assets/images/VISA.svg" alt="Visa logo">
+                                    </a>
+                                </li>
+                                <li class="payment">
+                                    <a href="https://www.mastercard.no/no-no.html">
+                                        <img class="payment-img" src="./assets/images/MASTERCARD.svg" alt="Mastercard logo">
+                                    </a>
+                                </li>
+                                <li class="payment">
+                                    <a href="https://vipps.no/">
+                                        <img class="payment-img" src="./assets/images/VIPPS.svg" alt="Vipps logo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="privacy-policy">By subscribing you agree to RAINYDAY'S privacy policy.</div>
-                </container>
-                <div class="payment-wrapper">
-                    <nav>
-                        <ul class="payment-ul">
-                            <li class="payment">
-                                <a href="https://www.klarna.com/no/?grs=https%3A%2F%2Fwww.klarna.com%2F&grr=empty">
-                                    <img class="payment-img" src="./assets/images/KLARNA.svg" alt="Klarna logo">
-                                </a>
-                            </li>
-                            <li class="payment">
-                                <a href="https://www.visa.no/">
-                                    <img class="payment-img" src="./assets/images/VISA.svg" alt="Visa logo">
-                                </a>
-                            </li>
-                            <li class="payment">
-                                <a href="https://www.mastercard.no/no-no.html">
-                                    <img class="payment-img" src="./assets/images/MASTERCARD.svg" alt="Mastercard logo">
-                                </a>
-                            </li>
-                            <li class="payment">
-                                <a href="https://vipps.no/">
-                                    <img class="payment-img" src="./assets/images/VIPPS.svg" alt="Vipps logo">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </body>
 </html>

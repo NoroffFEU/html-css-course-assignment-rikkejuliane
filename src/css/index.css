@@ -1,65 +1,55 @@
-
-
-.section-men, .section-women {
+.section-men,
+.section-women {
   position: relative;
 }
 
-.section-about, .section-contact{
+.section-about,
+.section-contact {
   position: relative;
 }
 
+.btn-women {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .btn-women{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-  }
+.btn-men {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .btn-men{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-  }
+.btn-contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .btn-contact{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-    }
-  
-    .btn-about{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-    }
+.btn-about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-   /* ---------- MEDIA QUERIES -------------*/
+/* ---------- MEDIA QUERIES -------------*/
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
-
-
 }
 
- 
 /* tablet and small laptops */
 @media screen and (min-width: 601px) and (max-width: 900px) {
   /*---bulk-section---*/
-
-
 }
- 
+
 /* laptop to larger desktops */
 @media screen and (min-width: 901px) and (max-width: 1300px) {
-
-  
 }
- 
+
 /* larger monitors */
 @media screen and (min-width: 1301px) {
-   
- 
 }
